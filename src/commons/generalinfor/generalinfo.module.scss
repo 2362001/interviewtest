@@ -1,0 +1,29 @@
+.generalinfo {
+  ul,
+  li {
+    list-style: none;
+  }
+  li {
+    padding: 5px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    width: 80%;
+  }
+  .title {
+    padding: 2px 0;
+  }
+  .info {
+    width: 50%;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 0;
+  }
+}
